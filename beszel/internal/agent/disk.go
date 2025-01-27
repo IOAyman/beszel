@@ -1,13 +1,13 @@
 package agent
 
 import (
-	"beszel/internal/entities/system"
 	"log/slog"
-	"time"
-
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
+
+	"github.com/henrygd/beszel/internal/entities/system"
 
 	"github.com/shirou/gopsutil/v4/disk"
 )
